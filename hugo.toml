@@ -1,0 +1,94 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Bash Distilled'
+theme = 'hugo-theme-relearn'
+
+[params]
+  additionalContentLanguage = ['en']
+  alwaysopen = ''
+  breadcrumbSeparator = '>'
+  collapsibleMenu = true
+  customMathJaxURL = ''
+  customMermaidURL = ''
+  customOpenapiURL = ''
+  disableAssetsBusting = false
+  disableBreadcrumb = false
+  disableExplicitIndexURLs = false
+  disableGeneratorVersion = false
+  disableHoverBlockCopyToClipBoard = false
+  disableInlineCopyToClipBoard = true
+  disableLandingPageButton = true
+  disableLanguageSwitchingButton = false
+  disableMathJax = true
+  disableMermaid = true
+  disableNextPrev = false
+  disableOpenapi = true
+  disableRandomIds = false
+  disableRootBreadcrumb = true
+  disableSearch = false
+  disableSearchHiddenPages = false
+  disableSeoHiddenPages = true
+  disableShortcutsTitle = false
+  disableTagHiddenPages = false
+  disableTermBreadcrumbs = false
+  disableToc = false
+  editURL = 'https://github.com/McShelby/hugo-theme-relearn/edit/main/exampleSite/content/${FilePath}'
+  externalLinkTarget = '_self'
+  highlightWrap = true
+  images = ['images/hero.png']
+  mathJaxInitialize = '{}'
+  mermaidInitialize = '{ "securityLevel": "loose" }'
+  mermaidZoom = true
+  ordersectionsby = 'weight'
+  showVisitedLinks = true
+  titleSeparator = '::'
+ 
+  [params.author]
+    name = 'Dr Saad Laouadi'
+
+  [params.image]
+    errorlevel = 'error'
+
+  [params.imageEffects]
+    border = true
+    lazy = true
+    lightbox = true
+    shadow = false
+
+  [params.include]
+    errorlevel = 'error'
+
+  [params.link]
+    errorlevel = 'error'
+
+  [params.openapi]
+    errorlevel = 'error'
+
+  [params.social]
+    facebook_admin = ''
+    twitter = ''
+
+[[params.themeVariant]]
+    auto = []
+    identifier = 'relearn-auto'
+    name = 'Relearn Light/Dark'
+
+  [[params.themeVariant]]
+    identifier = 'relearn-light'
+
+  [[params.themeVariant]]
+    identifier = 'relearn-dark'
+
+  [[params.themeVariant]]
+    auto = ['zen-light', 'zen-dark']
+    identifier = 'zen-auto'
+    name = 'Zen Light/Dark'
+
+  [[params.themeVariant]]
+    identifier = 'zen-light'
+
+  [[params.themeVariant]]
+    identifier = 'zen-dark'
+
+  [[params.themeVariant]]
+    identifier = 'neon'
